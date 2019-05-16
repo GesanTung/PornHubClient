@@ -1,0 +1,95 @@
+PODS:
+  - Alamofire (4.8.2)
+  - CodableAlamofire (1.1.1):
+    - Alamofire (~> 4.0)
+  - DefaultsKit (0.2.0)
+  - Device (3.1.2)
+  - Differentiator (3.1.0)
+  - FDFullscreenPopGesture (1.1)
+  - Kingfisher (5.3.1)
+  - MBProgressHUD (1.1.0)
+  - Moya/Core (13.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.0):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
+  - Result (4.1.0)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxFeedback (2.0.0):
+    - RxCocoa (~> 4.4)
+    - RxSwift (~> 4.4)
+  - RxSwift (4.5.0)
+  - SnapKit (4.2.0)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CodableAlamofire
+  - DefaultsKit
+  - Device
+  - FDFullscreenPopGesture
+  - Kingfisher
+  - MBProgressHUD
+  - Moya/RxSwift
+  - "NSObject+Rx"
+  - RxAtomic
+  - RxCocoa
+  - RxDataSources
+  - RxFeedback
+  - RxSwift
+  - SnapKit
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CodableAlamofire
+    - DefaultsKit
+    - Device
+    - Differentiator
+    - FDFullscreenPopGesture
+    - Kingfisher
+    - MBProgressHUD
+    - Moya
+    - "NSObject+Rx"
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxFeedback
+    - RxSwift
+    - SnapKit
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  CodableAlamofire: b587c1198562824abb1f468aed34feb00d6cecd8
+  DefaultsKit: 6c767941b2c3fe34c4d70e300e6c3b80c94964dd
+  Device: 62242076214c30fb5760174b3601cefafa70a481
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Moya: 161263550064ff8a4948e8ff63137fd72a876292
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxFeedback: 49bb931caf6d05e315d5b5366c0991ad1474ea36
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: d1748080e55c0c7bd6c6e58ba43925407152843e
+
+COCOAPODS: 1.6.0
