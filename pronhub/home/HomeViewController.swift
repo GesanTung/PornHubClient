@@ -14,7 +14,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.gt.colorWith(hex: 0x111111)
         self.navigationController?.navigationBar.isHidden = true
-        automaticallyAdjustsScrollViewInsets = false
         // Do any additional setup after loading the view.
     }
 
