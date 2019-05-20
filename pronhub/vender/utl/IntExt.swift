@@ -8,13 +8,10 @@
 
 import UIKit
 
-public let kscale = UIScreen.main.scale
-public let (kscreenWidth, kscreenHeight) = (min(UIScreen.main.bounds.width, UIScreen.main.bounds.height), max(UIScreen.main.bounds.width, UIScreen.main.bounds.height))
-
 public extension Int {
     /// convert to pixel: 5.7inch as criterion
     public var pixel: CGFloat {
-        let mod = CGFloat(self % 3) / kscale
+        let mod = CGFloat(self % 3) / CMTool.kscale
         return CGFloat(self / 3) + mod
     }
 

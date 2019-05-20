@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1844215F228FFEB80031E6FB /* UICollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844215E228FFEB80031E6FB /* UICollectionViewExt.swift */; };
+		18442162228FFFFA0031E6FB /* GTViewBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18442161228FFFFA0031E6FB /* GTViewBuild.swift */; };
+		18442165229003860031E6FB /* HomeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18442164229003860031E6FB /* HomeTopView.swift */; };
+		18442167229005BD0031E6FB /* GTDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18442166229005BD0031E6FB /* GTDevice.swift */; };
 		186C6433227689E900FF918D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C6432227689E900FF918D /* AppDelegate.swift */; };
 		186C6435227689E900FF918D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C6434227689E900FF918D /* ViewController.swift */; };
 		186C643A227689EA00FF918D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186C6439227689EA00FF918D /* Assets.xcassets */; };
@@ -48,6 +52,10 @@
 
 /* Begin PBXFileReference section */
 		11F7F56205D2A2208E01A426 /* Pods-pronhub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pronhub.debug.xcconfig"; path = "Target Support Files/Pods-pronhub/Pods-pronhub.debug.xcconfig"; sourceTree = "<group>"; };
+		1844215E228FFEB80031E6FB /* UICollectionViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExt.swift; sourceTree = "<group>"; };
+		18442161228FFFFA0031E6FB /* GTViewBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTViewBuild.swift; sourceTree = "<group>"; };
+		18442164229003860031E6FB /* HomeTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopView.swift; sourceTree = "<group>"; };
+		18442166229005BD0031E6FB /* GTDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTDevice.swift; sourceTree = "<group>"; };
 		186C642F227689E900FF918D /* pronhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pronhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186C6432227689E900FF918D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186C6434227689E900FF918D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +119,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1844215D228FDDDB0031E6FB /* found */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = found;
+			sourceTree = "<group>";
+		};
+		18442160228FFF790031E6FB /* base */ = {
+			isa = PBXGroup;
+			children = (
+				18442161228FFFFA0031E6FB /* GTViewBuild.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		18442163229003340031E6FB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				18442164229003860031E6FB /* HomeTopView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		186C6426227689E900FF918D = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +171,7 @@
 				18932601228BB676000C7DA5 /* vender */,
 				189325FC228BAECE000C7DA5 /* mine */,
 				189325FB228BAEC5000C7DA5 /* home */,
+				1844215D228FDDDB0031E6FB /* found */,
 				18FE1A2A228716A300E84EC4 /* tab */,
 				186C64612276C8F300FF918D /* AppLifecycleMediator.swift */,
 				186C64602276C8F300FF918D /* StartupCommandsBuilder.swift */,
@@ -174,6 +206,7 @@
 		189325FB228BAEC5000C7DA5 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				18442163229003340031E6FB /* view */,
 				189325FD228BAEFF000C7DA5 /* HomeViewController.swift */,
 			);
 			path = home;
@@ -190,6 +223,7 @@
 		18932601228BB676000C7DA5 /* vender */ = {
 			isa = PBXGroup;
 			children = (
+				18442160228FFF790031E6FB /* base */,
 				18932602228BB696000C7DA5 /* utl */,
 			);
 			path = vender;
@@ -201,6 +235,8 @@
 				18932603228BB6B6000C7DA5 /* UIColorExt.swift */,
 				18932605228BB72F000C7DA5 /* GTBase.swift */,
 				1893260A228C14E6000C7DA5 /* IntExt.swift */,
+				1844215E228FFEB80031E6FB /* UICollectionViewExt.swift */,
+				18442166229005BD0031E6FB /* GTDevice.swift */,
 			);
 			path = utl;
 			sourceTree = "<group>";
@@ -447,7 +483,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1893260D228D67CB000C7DA5 /* GTTabbarConfig.swift in Sources */,
+				18442162228FFFFA0031E6FB /* GTViewBuild.swift in Sources */,
 				186C64622276C8F400FF918D /* StartupCommandsBuilder.swift in Sources */,
+				18442165229003860031E6FB /* HomeTopView.swift in Sources */,
 				1893260B228C14E6000C7DA5 /* IntExt.swift in Sources */,
 				18FE1A2E2287175700E84EC4 /* GTTabbar.swift in Sources */,
 				18932609228C1462000C7DA5 /* AppThemeConfig.swift in Sources */,
@@ -456,8 +494,10 @@
 				18FE1A2C228716D600E84EC4 /* GTTabbarController.swift in Sources */,
 				189325FE228BAEFF000C7DA5 /* HomeViewController.swift in Sources */,
 				186C6435227689E900FF918D /* ViewController.swift in Sources */,
+				1844215F228FFEB80031E6FB /* UICollectionViewExt.swift in Sources */,
 				186C6433227689E900FF918D /* AppDelegate.swift in Sources */,
 				18932604228BB6B6000C7DA5 /* UIColorExt.swift in Sources */,
+				18442167229005BD0031E6FB /* GTDevice.swift in Sources */,
 				18932606228BB72F000C7DA5 /* GTBase.swift in Sources */,
 				186C64632276C8F400FF918D /* AppLifecycleMediator.swift in Sources */,
 				18932600228BAF25000C7DA5 /* MineViewController.swift in Sources */,
