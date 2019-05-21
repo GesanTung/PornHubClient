@@ -48,4 +48,10 @@ public struct GTThemeSettings {
         }
         return realColor
     }
+
+    public static func commonFont(_ font: GTFontSize) -> UIFont {
+        var font: UIFont
+        font = UIFont.systemFont(ofSize: 48.pixel)
+        return font
+    }
 }

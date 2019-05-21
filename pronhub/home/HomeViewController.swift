@@ -43,8 +43,8 @@ extension HomeViewController: GTViewBuild {
     }
 
     func buildViewConfig() {
-//        headerView.channelsView.register(CMChannelCell.self, forCellWithReuseIdentifier: CMChannelCell.className)
-//        contentView.register(CMChannelContentViewCell.self, forCellWithReuseIdentifier: CMChannelContentViewCell.className)
+        headerView.channelsView.register(HomeTopCell.self, forCellWithReuseIdentifier: HomeTopCell.className)
+        contentView.register(HomePageViewCell.self, forCellWithReuseIdentifier: HomePageViewCell.className)
         contentView.showsVerticalScrollIndicator = false
         contentView.showsHorizontalScrollIndicator = false
         contentView.isPagingEnabled = true
