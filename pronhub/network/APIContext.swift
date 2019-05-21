@@ -9,23 +9,12 @@
 import Foundation
 
 let stubWhiteList = [
-    "getArticleList",
-    "getAllInfo",
-    "getClueIndex",
-    "getMyAcceptClueList",
-    "getSelectedClueList",
-    "delSelectedClue",
-    "getClueDetail",
-    "getArticleDetail",
-    "getNotificationList"
+    "getArticleList"
 ]
 
 enum APIEnvironment: String {
-    case develop = "http://170.240.110.120/"
-    case test = "http://47.97.243.140:8036/"
-    case innerTest = "http://170.240.110.218:80"
-    case pubTest = "http://120.26.104.64:8081/"
-    case product = "https://imapi.thecover.cn/"
+    case develop = ""
+    case product = ""
 }
 
 struct APIContext {
@@ -87,26 +76,3 @@ func == (l: CollectorError, r: CollectorError) -> Bool {
         return false
     }
 }
-
-struct NetworkCode {
-
-    static let success = 200    // 成功
-
-    static let loginInvalid = 403    // 需要重新登录
-    static let loginOntherDevice = 402    // 需要重新登录
-    static let roleChanged = 440    // 权限变了，需要重新登录
-
-    static let hadNoMore = 411  // 没有更多数据了
-
-    static let noData = 428   // 没有数据
-
-    static let roleError = 457   // 权限错误
-
-    static let lockByOther = 461    // 被其他人锁定
-
-    static let unLockByOther = 462    // 已经解锁
-
-    static let auditFailed = 466    // 稿件有变化，无法审核
-
-}
-
