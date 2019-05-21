@@ -20,6 +20,7 @@
 		184421762293CCDD0031E6FB /* APIContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184421752293CCDD0031E6FB /* APIContext.swift */; };
 		184421782293CD970031E6FB /* NetworkDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184421772293CD970031E6FB /* NetworkDecode.swift */; };
 		1844217A2293CDCB0031E6FB /* NetWorkServerErrorFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184421792293CDCB0031E6FB /* NetWorkServerErrorFilter.swift */; };
+		1844217C2293F97D0031E6FB /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844217B2293F97D0031E6FB /* NetworkAPI.swift */; };
 		186C6433227689E900FF918D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C6432227689E900FF918D /* AppDelegate.swift */; };
 		186C6435227689E900FF918D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C6434227689E900FF918D /* ViewController.swift */; };
 		186C643A227689EA00FF918D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186C6439227689EA00FF918D /* Assets.xcassets */; };
@@ -74,6 +75,7 @@
 		184421752293CCDD0031E6FB /* APIContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIContext.swift; sourceTree = "<group>"; };
 		184421772293CD970031E6FB /* NetworkDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDecode.swift; sourceTree = "<group>"; };
 		184421792293CDCB0031E6FB /* NetWorkServerErrorFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkServerErrorFilter.swift; sourceTree = "<group>"; };
+		1844217B2293F97D0031E6FB /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
 		186C642F227689E900FF918D /* pronhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pronhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186C6432227689E900FF918D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186C6434227689E900FF918D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				184421752293CCDD0031E6FB /* APIContext.swift */,
 				184421772293CD970031E6FB /* NetworkDecode.swift */,
 				184421792293CDCB0031E6FB /* NetWorkServerErrorFilter.swift */,
+				1844217B2293F97D0031E6FB /* NetworkAPI.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -524,6 +527,7 @@
 				18442162228FFFFA0031E6FB /* GTViewBuild.swift in Sources */,
 				186C64622276C8F400FF918D /* StartupCommandsBuilder.swift in Sources */,
 				184421702293CB980031E6FB /* NetworkProvider.swift in Sources */,
+				1844217C2293F97D0031E6FB /* NetworkAPI.swift in Sources */,
 				18442165229003860031E6FB /* HomeTopView.swift in Sources */,
 				1893260B228C14E6000C7DA5 /* IntExt.swift in Sources */,
 				18FE1A2E2287175700E84EC4 /* GTTabbar.swift in Sources */,
