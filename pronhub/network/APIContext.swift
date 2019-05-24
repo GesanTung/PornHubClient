@@ -14,7 +14,7 @@ let stubWhiteList = [
 
 enum APIEnvironment: String {
     case develop = ""
-    case product = ""
+    case product = "https://iostips.laofeng.com/homepage"
 }
 
 struct APIContext {

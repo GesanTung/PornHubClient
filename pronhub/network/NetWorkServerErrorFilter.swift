@@ -15,12 +15,6 @@ class NetWorkServerErrorFilter: PluginType {
 
     static let share = NetWorkServerErrorFilter()
 
-    lazy var loginTokenInValid: Observable<Bool> = {
-        return _statusCode.map({ $0.0 }).distinctUntilChanged()
-            .filter({ [NetworkCode.loginInvalid, NetworkCode.loginOntherDevice, NetworkCode.roleChanged].contains($0) })
-            .map({ _ in true })
-    }()
-
     lazy var statusCode: Observable<(Int, TargetType)> = {
         return _statusCode.asObserver()
     }()

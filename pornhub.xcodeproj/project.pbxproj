@@ -76,15 +76,15 @@
 		184421772293CD970031E6FB /* NetworkDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDecode.swift; sourceTree = "<group>"; };
 		184421792293CDCB0031E6FB /* NetWorkServerErrorFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkServerErrorFilter.swift; sourceTree = "<group>"; };
 		1844217B2293F97D0031E6FB /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
-		186C642F227689E900FF918D /* pronhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pronhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C642F227689E900FF918D /* pornhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pornhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186C6432227689E900FF918D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186C6434227689E900FF918D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		186C6439227689EA00FF918D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186C643E227689EA00FF918D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		186C6443227689EB00FF918D /* pronhubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pronhubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C6443227689EB00FF918D /* pornhubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pornhubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186C6447227689EB00FF918D /* pronhubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pronhubTests.swift; sourceTree = "<group>"; };
 		186C6449227689EB00FF918D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		186C644E227689EB00FF918D /* pronhubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pronhubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C644E227689EB00FF918D /* pornhubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pornhubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186C6452227689EB00FF918D /* pronhubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pronhubUITests.swift; sourceTree = "<group>"; };
 		186C6454227689EB00FF918D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186C64602276C8F300FF918D /* StartupCommandsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupCommandsBuilder.swift; sourceTree = "<group>"; };
@@ -192,9 +192,9 @@
 		186C6430227689E900FF918D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				186C642F227689E900FF918D /* pronhub.app */,
-				186C6443227689EB00FF918D /* pronhubTests.xctest */,
-				186C644E227689EB00FF918D /* pronhubUITests.xctest */,
+				186C642F227689E900FF918D /* pornhub.app */,
+				186C6443227689EB00FF918D /* pornhubTests.xctest */,
+				186C644E227689EB00FF918D /* pornhubUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,9 +310,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		186C642E227689E900FF918D /* pronhub */ = {
+		186C642E227689E900FF918D /* pornhub */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186C6457227689EB00FF918D /* Build configuration list for PBXNativeTarget "pronhub" */;
+			buildConfigurationList = 186C6457227689EB00FF918D /* Build configuration list for PBXNativeTarget "pornhub" */;
 			buildPhases = (
 				B78138A526B03DA76F30237B /* [CP] Check Pods Manifest.lock */,
 				186C642B227689E900FF918D /* Sources */,
@@ -324,14 +324,14 @@
 			);
 			dependencies = (
 			);
-			name = pronhub;
+			name = pornhub;
 			productName = pronhub;
-			productReference = 186C642F227689E900FF918D /* pronhub.app */;
+			productReference = 186C642F227689E900FF918D /* pornhub.app */;
 			productType = "com.apple.product-type.application";
 		};
-		186C6442227689EB00FF918D /* pronhubTests */ = {
+		186C6442227689EB00FF918D /* pornhubTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186C645A227689EB00FF918D /* Build configuration list for PBXNativeTarget "pronhubTests" */;
+			buildConfigurationList = 186C645A227689EB00FF918D /* Build configuration list for PBXNativeTarget "pornhubTests" */;
 			buildPhases = (
 				186C643F227689EB00FF918D /* Sources */,
 				186C6440227689EB00FF918D /* Frameworks */,
@@ -342,14 +342,14 @@
 			dependencies = (
 				186C6445227689EB00FF918D /* PBXTargetDependency */,
 			);
-			name = pronhubTests;
+			name = pornhubTests;
 			productName = pronhubTests;
-			productReference = 186C6443227689EB00FF918D /* pronhubTests.xctest */;
+			productReference = 186C6443227689EB00FF918D /* pornhubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		186C644D227689EB00FF918D /* pronhubUITests */ = {
+		186C644D227689EB00FF918D /* pornhubUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186C645D227689EB00FF918D /* Build configuration list for PBXNativeTarget "pronhubUITests" */;
+			buildConfigurationList = 186C645D227689EB00FF918D /* Build configuration list for PBXNativeTarget "pornhubUITests" */;
 			buildPhases = (
 				186C644A227689EB00FF918D /* Sources */,
 				186C644B227689EB00FF918D /* Frameworks */,
@@ -360,9 +360,9 @@
 			dependencies = (
 				186C6450227689EB00FF918D /* PBXTargetDependency */,
 			);
-			name = pronhubUITests;
+			name = pornhubUITests;
 			productName = pronhubUITests;
-			productReference = 186C644E227689EB00FF918D /* pronhubUITests.xctest */;
+			productReference = 186C644E227689EB00FF918D /* pornhubUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -388,7 +388,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 186C642A227689E900FF918D /* Build configuration list for PBXProject "pronhub" */;
+			buildConfigurationList = 186C642A227689E900FF918D /* Build configuration list for PBXProject "pornhub" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -401,9 +401,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				186C642E227689E900FF918D /* pronhub */,
-				186C6442227689EB00FF918D /* pronhubTests */,
-				186C644D227689EB00FF918D /* pronhubUITests */,
+				186C642E227689E900FF918D /* pornhub */,
+				186C6442227689EB00FF918D /* pornhubTests */,
+				186C644D227689EB00FF918D /* pornhubUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -573,12 +573,12 @@
 /* Begin PBXTargetDependency section */
 		186C6445227689EB00FF918D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 186C642E227689E900FF918D /* pronhub */;
+			target = 186C642E227689E900FF918D /* pornhub */;
 			targetProxy = 186C6444227689EB00FF918D /* PBXContainerItemProxy */;
 		};
 		186C6450227689EB00FF918D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 186C642E227689E900FF918D /* pronhub */;
+			target = 186C642E227689E900FF918D /* pornhub */;
 			targetProxy = 186C644F227689EB00FF918D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -759,7 +759,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pronhub.app/pronhub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pornhub.app/pornhub";
 			};
 			name = Debug;
 		};
@@ -780,7 +780,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pronhub.app/pronhub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pornhub.app/pornhub";
 			};
 			name = Release;
 		};
@@ -827,7 +827,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		186C642A227689E900FF918D /* Build configuration list for PBXProject "pronhub" */ = {
+		186C642A227689E900FF918D /* Build configuration list for PBXProject "pornhub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186C6455227689EB00FF918D /* Debug */,
@@ -836,7 +836,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186C6457227689EB00FF918D /* Build configuration list for PBXNativeTarget "pronhub" */ = {
+		186C6457227689EB00FF918D /* Build configuration list for PBXNativeTarget "pornhub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186C6458227689EB00FF918D /* Debug */,
@@ -845,7 +845,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186C645A227689EB00FF918D /* Build configuration list for PBXNativeTarget "pronhubTests" */ = {
+		186C645A227689EB00FF918D /* Build configuration list for PBXNativeTarget "pornhubTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186C645B227689EB00FF918D /* Debug */,
@@ -854,7 +854,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186C645D227689EB00FF918D /* Build configuration list for PBXNativeTarget "pronhubUITests" */ = {
+		186C645D227689EB00FF918D /* Build configuration list for PBXNativeTarget "pornhubUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186C645E227689EB00FF918D /* Debug */,

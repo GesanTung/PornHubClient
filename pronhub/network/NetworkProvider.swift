@@ -134,7 +134,7 @@ struct NetModel: Decodable {
     let status: Int
 
     var isSucceed: Bool {
-        return NetworkCode.success == status
+        return 200 == status
     }
 }
 

@@ -8,6 +8,6 @@
 
 import Foundation
 
-let globalAPIEnvironment = APIEnvironment.test
+let globalAPIEnvironment = APIEnvironment.develop
 let logNetwork = true   // 请求是否 log 到控制台
 let canStub = false  // 是否使用stubbed数据

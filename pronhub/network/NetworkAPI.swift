@@ -12,9 +12,7 @@ import Moya
 let netWork = NetworkProvider<CollectorAPI>()
 
 enum CollectorAPI: TargetType, CollectorAPIType {
-
     case login(account: String, password: String, vcode: String)
-
 }
 
 protocol CollectorAPIType {
