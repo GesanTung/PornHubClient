@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0E141763E5CE332C239C679FA9E06A4C"
-               BuildableName = "Pods_pronhub.framework"
-               BlueprintName = "Pods-pronhub"
+               BlueprintIdentifier = "5F5A6EDB4258269136B3FD3B88A29D94"
+               BuildableName = "Pods_pornhub.framework"
+               BlueprintName = "Pods-pornhub"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E141763E5CE332C239C679FA9E06A4C"
-            BuildableName = "Pods_pronhub.framework"
-            BlueprintName = "Pods-pronhub"
+            BlueprintIdentifier = "5F5A6EDB4258269136B3FD3B88A29D94"
+            BuildableName = "Pods_pornhub.framework"
+            BlueprintName = "Pods-pornhub"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

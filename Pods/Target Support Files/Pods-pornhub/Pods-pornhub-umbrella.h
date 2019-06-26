@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_pronhubVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_pronhubVersionString[];
+FOUNDATION_EXPORT double Pods_pornhubVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_pornhubVersionString[];
 
