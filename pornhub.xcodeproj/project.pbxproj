@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18400377229B81DB00AD2F40 /* Homeservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18400376229B81DB00AD2F40 /* Homeservice.swift */; };
+		18400379229B867000AD2F40 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18400378229B867000AD2F40 /* HomeModel.swift */; };
 		1844215F228FFEB80031E6FB /* UICollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844215E228FFEB80031E6FB /* UICollectionViewExt.swift */; };
 		18442162228FFFFA0031E6FB /* GTViewBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18442161228FFFFA0031E6FB /* GTViewBuild.swift */; };
 		18442165229003860031E6FB /* HomeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18442164229003860031E6FB /* HomeTopView.swift */; };
@@ -37,10 +39,11 @@
 		18932609228C1462000C7DA5 /* AppThemeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18932608228C1462000C7DA5 /* AppThemeConfig.swift */; };
 		1893260B228C14E6000C7DA5 /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893260A228C14E6000C7DA5 /* IntExt.swift */; };
 		1893260D228D67CB000C7DA5 /* GTTabbarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893260C228D67CB000C7DA5 /* GTTabbarConfig.swift */; };
+		18E753CA22C3748E0002B552 /* homeGetCategory.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E753C922C3748E0002B552 /* homeGetCategory.json */; };
 		18FE1A2C228716D600E84EC4 /* GTTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1A2B228716D600E84EC4 /* GTTabbarController.swift */; };
 		18FE1A2E2287175700E84EC4 /* GTTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1A2D2287175700E84EC4 /* GTTabbar.swift */; };
 		18FE1A30228717DD00E84EC4 /* GTTabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1A2F228717DD00E84EC4 /* GTTabbarItem.swift */; };
-		A2C68F24F1EF5061F79FAC0B /* Pods_pronhub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516D906C5B05FEDDA1C54367 /* Pods_pronhub.framework */; };
+		2396DA2A7C2190632920EBA3 /* Pods_pornhub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B492EAC9E4D72EF0A52A7F3 /* Pods_pornhub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11F7F56205D2A2208E01A426 /* Pods-pronhub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pronhub.debug.xcconfig"; path = "Target Support Files/Pods-pronhub/Pods-pronhub.debug.xcconfig"; sourceTree = "<group>"; };
+		18400376229B81DB00AD2F40 /* Homeservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeservice.swift; sourceTree = "<group>"; };
+		18400378229B867000AD2F40 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		1844215E228FFEB80031E6FB /* UICollectionViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExt.swift; sourceTree = "<group>"; };
 		18442161228FFFFA0031E6FB /* GTViewBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTViewBuild.swift; sourceTree = "<group>"; };
 		18442164229003860031E6FB /* HomeTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopView.swift; sourceTree = "<group>"; };
@@ -98,11 +102,14 @@
 		18932608228C1462000C7DA5 /* AppThemeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeConfig.swift; sourceTree = "<group>"; };
 		1893260A228C14E6000C7DA5 /* IntExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
 		1893260C228D67CB000C7DA5 /* GTTabbarConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTabbarConfig.swift; sourceTree = "<group>"; };
+		18E753C922C3748E0002B552 /* homeGetCategory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeGetCategory.json; sourceTree = "<group>"; };
 		18FE1A2B228716D600E84EC4 /* GTTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTabbarController.swift; sourceTree = "<group>"; };
 		18FE1A2D2287175700E84EC4 /* GTTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTabbar.swift; sourceTree = "<group>"; };
 		18FE1A2F228717DD00E84EC4 /* GTTabbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTabbarItem.swift; sourceTree = "<group>"; };
 		516D906C5B05FEDDA1C54367 /* Pods_pronhub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pronhub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E3A01C28534067A77CC360C /* Pods-pronhub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pronhub.release.xcconfig"; path = "Target Support Files/Pods-pronhub/Pods-pronhub.release.xcconfig"; sourceTree = "<group>"; };
+		679871CE2C2B3F5B6AA842EB /* Pods-pornhub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pornhub.debug.xcconfig"; path = "Target Support Files/Pods-pornhub/Pods-pornhub.debug.xcconfig"; sourceTree = "<group>"; };
+		9B492EAC9E4D72EF0A52A7F3 /* Pods_pornhub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pornhub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A657C47F7E33392E7348ECA9 /* Pods-pornhub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pornhub.release.xcconfig"; path = "Target Support Files/Pods-pornhub/Pods-pornhub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C68F24F1EF5061F79FAC0B /* Pods_pronhub.framework in Frameworks */,
+				2396DA2A7C2190632920EBA3 /* Pods_pornhub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +142,25 @@
 			isa = PBXGroup;
 			children = (
 				516D906C5B05FEDDA1C54367 /* Pods_pronhub.framework */,
+				9B492EAC9E4D72EF0A52A7F3 /* Pods_pornhub.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18400374229B7B5E00AD2F40 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				18400378229B867000AD2F40 /* HomeModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		18400375229B81B900AD2F40 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				18400376229B81DB00AD2F40 /* Homeservice.swift */,
+			);
+			path = service;
 			sourceTree = "<group>";
 		};
 		1844215D228FDDDB0031E6FB /* found */ = {
@@ -180,9 +204,9 @@
 		186C6426227689E900FF918D = {
 			isa = PBXGroup;
 			children = (
-				186C6431227689E900FF918D /* pronhub */,
-				186C6446227689EB00FF918D /* pronhubTests */,
-				186C6451227689EB00FF918D /* pronhubUITests */,
+				186C6431227689E900FF918D /* pornhub */,
+				186C6446227689EB00FF918D /* pornhubTests */,
+				186C6451227689EB00FF918D /* pornhubUITests */,
 				186C6430227689E900FF918D /* Products */,
 				B674DFD054B1F56BCF06CE65 /* Pods */,
 				074C5F1C1547B58882FDDD2C /* Frameworks */,
@@ -199,9 +223,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		186C6431227689E900FF918D /* pronhub */ = {
+		186C6431227689E900FF918D /* pornhub */ = {
 			isa = PBXGroup;
 			children = (
+				18E753C622C373180002B552 /* localdata */,
 				1844216E2293CB220031E6FB /* network */,
 				18932607228C1442000C7DA5 /* theme */,
 				18932601228BB676000C7DA5 /* vender */,
@@ -219,30 +244,32 @@
 				188208AB2276D331002C0C6A /* AppRootNode.swift */,
 				189325F9228BAC49000C7DA5 /* Images.xcassets */,
 			);
-			path = pronhub;
+			path = pornhub;
 			sourceTree = "<group>";
 		};
-		186C6446227689EB00FF918D /* pronhubTests */ = {
+		186C6446227689EB00FF918D /* pornhubTests */ = {
 			isa = PBXGroup;
 			children = (
 				186C6447227689EB00FF918D /* pronhubTests.swift */,
 				186C6449227689EB00FF918D /* Info.plist */,
 			);
-			path = pronhubTests;
+			path = pornhubTests;
 			sourceTree = "<group>";
 		};
-		186C6451227689EB00FF918D /* pronhubUITests */ = {
+		186C6451227689EB00FF918D /* pornhubUITests */ = {
 			isa = PBXGroup;
 			children = (
 				186C6452227689EB00FF918D /* pronhubUITests.swift */,
 				186C6454227689EB00FF918D /* Info.plist */,
 			);
-			path = pronhubUITests;
+			path = pornhubUITests;
 			sourceTree = "<group>";
 		};
 		189325FB228BAEC5000C7DA5 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				18400375229B81B900AD2F40 /* service */,
+				18400374229B7B5E00AD2F40 /* model */,
 				18442163229003340031E6FB /* view */,
 				189325FD228BAEFF000C7DA5 /* HomeViewController.swift */,
 			);
@@ -287,6 +314,14 @@
 			path = theme;
 			sourceTree = "<group>";
 		};
+		18E753C622C373180002B552 /* localdata */ = {
+			isa = PBXGroup;
+			children = (
+				18E753C922C3748E0002B552 /* homeGetCategory.json */,
+			);
+			path = localdata;
+			sourceTree = SOURCE_ROOT;
+		};
 		18FE1A2A228716A300E84EC4 /* tab */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,8 +336,8 @@
 		B674DFD054B1F56BCF06CE65 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				11F7F56205D2A2208E01A426 /* Pods-pronhub.debug.xcconfig */,
-				9E3A01C28534067A77CC360C /* Pods-pronhub.release.xcconfig */,
+				679871CE2C2B3F5B6AA842EB /* Pods-pornhub.debug.xcconfig */,
+				A657C47F7E33392E7348ECA9 /* Pods-pornhub.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -415,6 +450,7 @@
 			files = (
 				186C643A227689EA00FF918D /* Assets.xcassets in Resources */,
 				189325FA228BAC49000C7DA5 /* Images.xcassets in Resources */,
+				18E753CA22C3748E0002B552 /* homeGetCategory.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +479,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-pronhub/Pods-pronhub-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-pornhub/Pods-pornhub-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DefaultsKit/DefaultsKit.framework",
@@ -488,7 +524,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pronhub/Pods-pronhub-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pornhub/Pods-pornhub-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B78138A526B03DA76F30237B /* [CP] Check Pods Manifest.lock */ = {
@@ -506,7 +542,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-pronhub-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pornhub-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -528,6 +564,7 @@
 				186C64622276C8F400FF918D /* StartupCommandsBuilder.swift in Sources */,
 				184421702293CB980031E6FB /* NetworkProvider.swift in Sources */,
 				1844217C2293F97D0031E6FB /* NetworkAPI.swift in Sources */,
+				18400377229B81DB00AD2F40 /* Homeservice.swift in Sources */,
 				18442165229003860031E6FB /* HomeTopView.swift in Sources */,
 				1893260B228C14E6000C7DA5 /* IntExt.swift in Sources */,
 				18FE1A2E2287175700E84EC4 /* GTTabbar.swift in Sources */,
@@ -542,6 +579,7 @@
 				189325FE228BAEFF000C7DA5 /* HomeViewController.swift in Sources */,
 				186C6435227689E900FF918D /* ViewController.swift in Sources */,
 				1844215F228FFEB80031E6FB /* UICollectionViewExt.swift in Sources */,
+				18400379229B867000AD2F40 /* HomeModel.swift in Sources */,
 				186C6433227689E900FF918D /* AppDelegate.swift in Sources */,
 				18932604228BB6B6000C7DA5 /* UIColorExt.swift in Sources */,
 				18442167229005BD0031E6FB /* GTDevice.swift in Sources */,
@@ -702,13 +740,13 @@
 		};
 		186C6458227689EB00FF918D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11F7F56205D2A2208E01A426 /* Pods-pronhub.debug.xcconfig */;
+			baseConfigurationReference = 679871CE2C2B3F5B6AA842EB /* Pods-pornhub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWM5MN65PP;
-				INFOPLIST_FILE = pronhub/Info.plist;
+				INFOPLIST_FILE = pornhub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -723,13 +761,13 @@
 		};
 		186C6459227689EB00FF918D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E3A01C28534067A77CC360C /* Pods-pronhub.release.xcconfig */;
+			baseConfigurationReference = A657C47F7E33392E7348ECA9 /* Pods-pornhub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWM5MN65PP;
-				INFOPLIST_FILE = pronhub/Info.plist;
+				INFOPLIST_FILE = pornhub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -749,7 +787,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4485E97UUA;
-				INFOPLIST_FILE = pronhubTests/Info.plist;
+				INFOPLIST_FILE = pornhubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -770,7 +808,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4485E97UUA;
-				INFOPLIST_FILE = pronhubTests/Info.plist;
+				INFOPLIST_FILE = pornhubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -790,7 +828,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4485E97UUA;
-				INFOPLIST_FILE = pronhubUITests/Info.plist;
+				INFOPLIST_FILE = pornhubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -810,7 +848,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4485E97UUA;
-				INFOPLIST_FILE = pronhubUITests/Info.plist;
+				INFOPLIST_FILE = pornhubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
