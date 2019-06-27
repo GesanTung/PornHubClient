@@ -21,7 +21,7 @@ class HomeVideoModel {
 }
 
 struct HomeVideoCategoryRes: Codable {
-    var data: [HomeVideoCategoryModel]
+    var list: [HomeVideoCategoryModel]
 }
 
 class HomeVideoViewModel {
@@ -35,7 +35,8 @@ class HomeVideoViewModel {
     func fetchCategoryInfo() {
         service.getCategory()
             .subscribe(onNext: { [weak self] (category) in
-
+                let pcategory = category
+                print(pcategory)
             })
     }
 }

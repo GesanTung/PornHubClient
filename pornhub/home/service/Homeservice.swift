@@ -19,6 +19,7 @@ class HomeServiceImpl: HomeService {
     func getCategory() -> Observable<HomeVideoCategoryRes> {
         return netWork.request(.homeGetCategory)
             .mapToModel(HomeVideoCategoryRes.self)
+            .debug()
             .share()
     }
     func getVideoList(cid: Int) -> Observable<Void> {

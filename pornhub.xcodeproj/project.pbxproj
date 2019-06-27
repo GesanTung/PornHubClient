@@ -39,7 +39,7 @@
 		18932609228C1462000C7DA5 /* AppThemeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18932608228C1462000C7DA5 /* AppThemeConfig.swift */; };
 		1893260B228C14E6000C7DA5 /* IntExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893260A228C14E6000C7DA5 /* IntExt.swift */; };
 		1893260D228D67CB000C7DA5 /* GTTabbarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1893260C228D67CB000C7DA5 /* GTTabbarConfig.swift */; };
-		18E753CA22C3748E0002B552 /* homeGetCategory.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E753C922C3748E0002B552 /* homeGetCategory.json */; };
+		18E753CA22C3748E0002B552 /* homegetcategory.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E753C922C3748E0002B552 /* homegetcategory.json */; };
 		18FE1A2C228716D600E84EC4 /* GTTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1A2B228716D600E84EC4 /* GTTabbarController.swift */; };
 		18FE1A2E2287175700E84EC4 /* GTTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1A2D2287175700E84EC4 /* GTTabbar.swift */; };
 		18FE1A30228717DD00E84EC4 /* GTTabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE1A2F228717DD00E84EC4 /* GTTabbarItem.swift */; };
@@ -102,7 +102,7 @@
 		18932608228C1462000C7DA5 /* AppThemeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeConfig.swift; sourceTree = "<group>"; };
 		1893260A228C14E6000C7DA5 /* IntExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExt.swift; sourceTree = "<group>"; };
 		1893260C228D67CB000C7DA5 /* GTTabbarConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTabbarConfig.swift; sourceTree = "<group>"; };
-		18E753C922C3748E0002B552 /* homeGetCategory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeGetCategory.json; sourceTree = "<group>"; };
+		18E753C922C3748E0002B552 /* homegetcategory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homegetcategory.json; sourceTree = "<group>"; };
 		18FE1A2B228716D600E84EC4 /* GTTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTabbarController.swift; sourceTree = "<group>"; };
 		18FE1A2D2287175700E84EC4 /* GTTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTabbar.swift; sourceTree = "<group>"; };
 		18FE1A2F228717DD00E84EC4 /* GTTabbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTTabbarItem.swift; sourceTree = "<group>"; };
@@ -317,7 +317,7 @@
 		18E753C622C373180002B552 /* localdata */ = {
 			isa = PBXGroup;
 			children = (
-				18E753C922C3748E0002B552 /* homeGetCategory.json */,
+				18E753C922C3748E0002B552 /* homegetcategory.json */,
 			);
 			path = localdata;
 			sourceTree = SOURCE_ROOT;
@@ -450,7 +450,7 @@
 			files = (
 				186C643A227689EA00FF918D /* Assets.xcassets in Resources */,
 				189325FA228BAC49000C7DA5 /* Images.xcassets in Resources */,
-				18E753CA22C3748E0002B552 /* homeGetCategory.json in Resources */,
+				18E753CA22C3748E0002B552 /* homegetcategory.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

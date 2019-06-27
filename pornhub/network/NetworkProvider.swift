@@ -202,6 +202,7 @@ extension NetworkProvider {
     }
 
     static func stubBehavior(target: Target) -> Moya.StubBehavior {
+        let path = target.path
         if canStub && stubWhiteList.contains(target.path) {
             return .immediate
         }

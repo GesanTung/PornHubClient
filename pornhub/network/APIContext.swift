@@ -9,7 +9,7 @@
 import Foundation
 
 let stubWhiteList = [
-    "homeGetCategory"
+    "homegetcategory"
 ]
 
 enum APIEnvironment: String {
